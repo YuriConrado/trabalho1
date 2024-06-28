@@ -10,7 +10,7 @@ try:
         alunoAprovacao = 'Aprovado'
     else:
         alunoAprovacao = 'Reprovado'
-    # Mostra a nota do aluno
+
     print(f'\tNota média do aluno {nomeAluno}\t')
     print(f'\nMédia: {mediaTotal}\n1° Bimestre: {primeiraNota}\n2° Bimestre: {segundaNota}\n3° Bimestre: {terceiraNota}\n4° Bimestre: {quartaNota}')
     print(f'\nSITUAÇÃO: {alunoAprovacao}')
